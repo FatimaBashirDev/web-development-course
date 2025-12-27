@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bgimages,opacity,cursor:pointer,display:none,block,box-shadow:
+  https://cssgenerator.org/box-shadow-css-generator.html
+  ,
+  pseudo element -->
+  <style>
+   .new{
+       background-color: aqua; 
+       margin: auto;   
+       margin-top: 20px;
+       max-width:280px;
+      
+    }
+   .main{
+   background-image: url('./image/photo.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 600px;
+    opacity: 0.8;
+   }
+   button{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    position: relative;
+   }
+    #new-option{
+      display: none;
+      position: absolute;
+      left:90px;
+     }
+   button:hover + #new-option{
+
+display: block;
+
+
+   }
+   img:hover{
+    width: 500px;
+    cursor: pointer;
+   }
+
+   /* pseudo element */
+    
+   /* #new-option:hover{
+   
+position: absolute;
+background-color: whitesmoke;
+ box-shadow: 9px 9px 25px -2px rgba(24, 20, 20, 0.8);
+  width: 100px;
+} */
+  </style>
+</head>
+<body>
+ <img src="./image/photo.jpg" alt="" width="50" height="50"> 
+<!-- <div class="main">
+<div class="new">
+ <h1>Heading no 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae illo at possimus, enim fugiat saepe ab iusto velit suscipit distinctio dolore veritatis, blanditiis nostrum, odio voluptas? Ipsam, in officia.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel quibusdam temporibus provident excepturi culpa aliquid enim error rerum cum dicta vero delectus aperiam, reiciendis quaerat praesentium corrupti exercitationem fugit voluptatibus?
+      lorem
+    </p>
+  </div>
+</div>  -->
+<select name="" id="">
+  <option value="">List no 1</option>
+  <option value="">List no 2</option>
+  <option value="">List no 3</option>
+  <option value="">List no 4</option>
+  <option value="">List no 5</option>
+</select>
+<button>Click me</button>
+<div id="new-option">
+  <p>List no 1</p>
+  <p>List no 2</p>
+  <p>List no 3</p>
+  <p>List no 4</p>
+  <p>List no 5</p>
+</div>
+</body>
+</html>

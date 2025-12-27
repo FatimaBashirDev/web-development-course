@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        font-family: sans-serif;
+      }
+      .main-page {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+      }
+      .hero-page{
+        display: flex;
+        margin-top:30px ;
+        gap: 30px;
+   
+      }
+      .left-column{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        gap: 10px;
+
+      }
+      .right-column{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      
+        width: 700px;
+    
+      }
+      .small-box{
+        height: 80px;
+        border: 1px solid rgb(141, 141, 141);
+     display: flex;
+     align-items: center;
+     padding-left: 10px; 
+     font-weight: bold;
+     border-radius: 5px;
+      }
+      #specific-box{
+        background-color: rgb(84, 127, 84);
+      color: white;
+      font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-page">
+      <div class="top-page">
+        <p style="color: rgb(84, 127, 84);  font-weight: bolder; font-size: 12px; letter-spacing: 1px;">OUR SERVICES</p>
+        <h1 style="margin-top: -4px; color: rgb(75, 75, 75);">We Can Help You With This Situation</h1>
+      </div>
+
+      <div class="hero-page">
+        <div class="left-column">
+          <div class="small-box" id="specific-box"><p>Relation Problem</p></div>
+          <div class="small-box"><p>Couples Counseling</p></div>
+          <div class="small-box"><p>Depression Treatment</p></div>
+          <div class="small-box"><p>Family Problem</p></div>
+          <div class="small-box"><p>Personal Problem</p></div>
+          <div class="small-box"><p>Businuess Problem</p></div>
+        </div>
+        <div class="right-column">
+          <img src="./Image.jpg" alt="" width="700" height="425">
+          <h2>Relation Problem</h2>
+          <p style="margin-top: -10px; color: rgb(141, 141, 141); line-height: 20px; font-size: 15px;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, thee live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
