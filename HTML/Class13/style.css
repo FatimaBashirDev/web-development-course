@@ -1,0 +1,66 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body>p{
+   font-size: 25px;
+  font-weight: 500;
+}
+form{
+  width: 800px;
+  height: 800px;
+  background-image: url('./bgimg.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 40px;
+ padding-left: 40px;
+}
+form>p{
+  font-size: 25px;
+}
+
+form>div:nth-of-type(2),form>div:nth-of-type(3),.input-box>div{
+  font-size: 10px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form>div:nth-of-type(2)>input,form>div:nth-of-type(3)>textarea{
+  width: 360px;
+  height: 100px;
+  padding-left: 10px;
+  border: none;
+}
+form>div:nth-of-type(3)>textarea{
+   padding-top: 10px;
+}
+form>div:nth-of-type(2)>input,.input-box>div>input{
+ padding-left: 10px;
+   height: 40px;
+   border: none;
+}
+.input-box>div>input{
+  width:164px;
+}
+form>button{
+width: 150px;
+  padding-block: 13px;
+  color: white;
+  background-color: #70a95b;
+  border-radius: 5px;
+  border: none;
+    padding-inline: 20px;
+}
+.input-box{
+  display: flex;
+  gap: 20px;
+}
+
